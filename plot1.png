@@ -1,0 +1,9 @@
+        plot(dayname, dat1, ylim=range(dat_sub), xlab="", ylab="Energy sub meeting", 
+             col="black", type="l")
+        lines(dayname, dat2, col="red")
+        lines(dayname, dat3, col="blue")
+        #legend
+        legend("topright", 
+               legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
+               col=c("black", "red", "blue"), 
+               lty = 1)
